@@ -1,5 +1,10 @@
 import http from './http'
 
-const login = data => http.get('/login', { data })
+const getUser = data => http.get('/getUser', { data })
 
 const updateUser = data => http.post('/updateUser', { data })
+
+module.exports = {
+  getUser,
+  updateUser
+}

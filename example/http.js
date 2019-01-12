@@ -1,4 +1,4 @@
-import http from '../src/request/index'
+import http from '../src/index'
 
 http.defaults.baseURL = 'https://xxxx.com/api'
 
